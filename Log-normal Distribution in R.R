@@ -50,17 +50,4 @@ fresh
 library(tidyverse)
 qplot(fresh, geom = "histogram")
 ---------------------------------------------------------------------------------------------
-#Example2.Freshman undergraduate enrollments at 8 randomly selected schools in the college
-#dataset are given below.
-# 605, 97, 736, 143, 622, 2408, 345, 324
-
-x <- c(605, 97, 736, 143, 622, 2408, 345, 324)
-x
-
-ln(x)
-
-sd(x)
-
-freshmanundergraduate <- (x)
-qplot(x)
 
